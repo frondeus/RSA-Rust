@@ -1,0 +1,10 @@
+[package]
+name = "rsa"
+version = "0.1.0"
+authors = ["Wojciech Polak <frondeus@gmail.com>"]
+
+[dependencies]
+byteorder = "1.0.0"
+sha2 = "0.4.2"
+pumpkin = {git = "https://github.com/zcdziura/pumpkin.git"}
+ramp = "0.2.*"
